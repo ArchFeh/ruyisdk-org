@@ -41,17 +41,17 @@ function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-3 w-3/5 mx-auto gap-4 text-left">
           <div className="grid grid-cols-[min-content_1fr] grid-rows-[min-content_1fr] gap-2">
             <div className="row-span-2"><Search className="p-4 rounded-md bg-sky-600 text-white" size="64"></Search></div>
-            <div className="text-xl font-bold">Made for Developer docs</div>
+            <div className="text-xl font-bold"></div>
             <div>任何一款 RISC-V 开发板或模组，都可以通过 RUYISDK 系统获得硬件资料说明、固件/软件更新、调试支持等</div>
           </div>
           <div className="grid grid-cols-[min-content_1fr] grid-rows-[min-content_1fr] gap-2">
-            <div className="row-span-2"><Group className="p-4 rounded-md bg-sky-600 text-white" size="64"></Group></div>
-            <div className="text-xl font-bold">Customizable and fast</div>
+            <div className="row-span-2"><Mobile className="p-4 rounded-md bg-sky-600 text-white" size="64"></Mobile></div>
+            <div className="text-xl font-bold"></div>
             <div>开发者可以指定任何常用的 RISC-V 扩展指令集架构组合， 都可以通过 RUYISDK 系统生成客户所需的操作系统、工具链、语言执行环境（运行时或虚拟机）、计算库、应用框架等。尤其强调 RUYISDK 将完全支持 Vector 0.7.1 和 RVP 0.5.2 等已经大规模硅化的草案标准（or 厂商定制扩展）。</div>
           </div>
           <div className="grid grid-cols-[min-content_1fr] grid-rows-[min-content_1fr] gap-2">
-            <div className="row-span-2"><Mobile className="p-4 rounded-md bg-sky-600 text-white" size="64"></Mobile></div>
-            <div className="text-xl font-bold">Mobile design</div>
+            <div className="row-span-2"><Group className="p-4 rounded-md bg-sky-600 text-white" size="64"></Group></div>
+            <div className="text-xl font-bold"></div>
             <div>培育运营一个活跃全面的开发者交流社区。</div>
           </div>
         </div>
@@ -61,24 +61,25 @@ function Home() {
         <div className="skew-y-6 space-y-4">
           <h1 className="text-5xl">RuyiSDK 架构和组件</h1>
           <p className="text-xl	text-slate-500 pb-10 w-2/4 mx-auto">
-            We scrape your documentation or technical blog, configure the Algolia application and send you the snippet you'll have to integrate. It's that simple.
+            RuyiSDK 主要包含了一个组件管理器（也称为如意包管理器）、一个集成开发环境（如意IDE）、一个开发者交流社区。
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 w-2/5 mx-auto gap-16 text-left">
             <div className="grid grid-rows-[min-content_min-content_1fr] gap-4">
               <Browsers size="200" className="mx-auto" />
-              <div className="text-xl font-bold">GCC Support for RUYISDK</div>
-              <div className="text-gray-600">We leverage the Algolia Crawler to index every section of your website.</div>
+              <div className="text-xl font-bold">如意包管理器</div>
+              <div className="text-gray-600">如意组件管理器包含一个在线软件源 （Ruyi repo） 和 一个包管理工具（ruyi）。</div>
             </div>
             <div className="grid grid-rows-[min-content_min-content_1fr] gap-4">
               <Timer size="200" className="mx-auto" />
-              <div className="text-xl font-bold">RuyiSDK llvm-project</div>
-              <div className="text-gray-600">You don't need to configure any settings or even have an Algolia account. We take care of this for you!</div>
+              <div className="text-xl font-bold">Ruyi IDE</div>
+              <div className="text-gray-600">如意集成开发环境（Ruyi IDE）则是一个专门用来开发能够运行在RISC-V架构设备上的软件和应用的工具箱。可以帮助开发者编写和测试自己的程序。
+</div>
             </div>
             <div className="grid grid-rows-[min-content_min-content_1fr] gap-4">
               <TerminalFill size="200" className="mx-auto" />
-              <div className="text-xl font-bold">RUYI QEMU</div>
-              <div className="text-gray-600">We'll send you a small snippet to integrate DocSearch to your website and an invite to your fully configured Algolia application.</div>
+              <div className="text-xl font-bold">开发者交流社区</div>
+              <div className="text-gray-600">如意开发者交流社区则提供文档和教程、论坛和技术讨论区、博客和文档等等功能。</div>
             </div>
           </div>
         </div>
