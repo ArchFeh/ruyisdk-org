@@ -67,7 +67,7 @@ const config: Config = {
     navbar: {
       title: 'RUYISDK',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -105,23 +105,23 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: '文档',
           items: [
             {
-              label: 'Tutorial',
+              label: '教程',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '社区',
           items: [
             {
-              label: 'RuyiSDK Community',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'RuyiSDK 社区',
+              href: 'https://github.com/ArchFeh/ruyisdk-org/discussions',
             },
             {
               label: 'Telegram',
@@ -134,10 +134,10 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: '更多',
           items: [
             {
-              label: 'News',
+              label: '新闻',
               to: '/blog',
             },
             {
