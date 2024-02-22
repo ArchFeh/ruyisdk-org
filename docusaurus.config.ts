@@ -73,24 +73,24 @@ const config: Config = {
       items: [
         {
           to: '/blog', 
-          label: 'News',
+          label: '新闻',
           position: 'left'
         },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Docs',
+          label: '文档',
         },
         {
-          href: 'https://github.com/ruyisdk',
-          label: 'Community',
+          href: 'https://github.com/ArchFeh/ruyisdk-org/discussions',
+          label: '社区',
           position: 'left',
         },
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
-          label: 'About',
+          label: '关于',
           position: 'right',
         },
         {
