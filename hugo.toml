@@ -1,4 +1,4 @@
-baseURL = "https://archfeh.github.io/ruyisdk-org/"
+baseURL = "/"
 title = "RuyiSDK"
 
 
@@ -170,10 +170,10 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-  name = "Discussion"
+  name = "Github Discussions"
   url = "https://github.com/ArchFeh/ruyisdk-org/discussions"
   icon = "fa-solid fa-comments" 
-  desc = "各位网友的讨论和帮助！"
+  desc = "Discussion and help from your fellow users"
 # [[params.links.user]]
 #   name ="Twitter"
 #   url = "https://example.org/twitter"
