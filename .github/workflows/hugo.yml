@@ -47,9 +47,9 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
-        run: npm ci
+        run: npm install --save-dev autoprefixer postcss-cli
       - name: Install dependencies
-        run:  cd themes/docsy && npm ci
+        run:  cd themes/docsy && npm install
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
