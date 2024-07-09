@@ -19,8 +19,6 @@ import CallToAction from "./CallToAction";
 
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
-import TerminalShow from "../components/TerminalShow";
-
 const Index = () => {
   const { siteConfig } = useDocusaurusContext();
 
@@ -34,7 +32,6 @@ const Index = () => {
         <title>RuyiSDK · 为100 万 RISC-V 软件开发人员做好准备</title>
       </Head>
       <Home />
-      {/* <TerminalShow /> */}
       <HomepageFeatures />
       <CallToAction />
     </Layout>
