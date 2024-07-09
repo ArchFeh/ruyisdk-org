@@ -185,7 +185,7 @@ const config = {
       "@docusaurus/plugin-content-blog",
       {
         blogTitle: "RuyiSDK 双周报",
-        blogSidebarTitle: "RuyiSDK 双周报",
+        blogSidebarTitle: "所有报告",
         /**
          * Required for any multi-instance plugin
          */
