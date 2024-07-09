@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 025 期·2024 年 07 月 09 日]]></title>
+            <title><![CDATA[第 025 期·2024 年 07 月 09 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/07/09/ruyisdk-biweekly-25</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/07/09/ruyisdk-biweekly-25</guid>
             <pubDate>Tue, 09 Jul 2024 00:00:00 GMT</pubDate>
@@ -109,7 +109,7 @@ WPS Office 进行办公了。</li>
 <p>内容请详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 024 期·2024 年 06 月 24 日]]></title>
+            <title><![CDATA[第 024 期·2024 年 06 月 24 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/06/24/ruyisdk-biweekly-24</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/06/24/ruyisdk-biweekly-24</guid>
             <pubDate>Mon, 24 Jun 2024 00:00:00 GMT</pubDate>
@@ -206,7 +206,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>共计 448 个文件修改，数十次 Review，这可能是支持矩阵创立以来最大的一次修改，在此感谢各位贡献者的参与~</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 023 期·2024 年 06 月 11 日]]></title>
+            <title><![CDATA[第 023 期·2024 年 06 月 11 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/06/11/ruyisdk-biweekly-23</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/06/11/ruyisdk-biweekly-23</guid>
             <pubDate>Tue, 11 Jun 2024 00:00:00 GMT</pubDate>
@@ -289,7 +289,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>内容请详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 022 期·2024 年 05 月 28 日]]></title>
+            <title><![CDATA[第 022 期·2024 年 05 月 28 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/28/ruyisdk-biweekly-22</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/28/ruyisdk-biweekly-22</guid>
             <pubDate>Tue, 28 May 2024 00:00:00 GMT</pubDate>
@@ -395,7 +395,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>至此，操作系统支持矩阵已覆盖了近 50 款开发板，撒花~</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 021 期·2024 年 05 月 14 日]]></title>
+            <title><![CDATA[第 021 期·2024 年 05 月 14 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/14/ruyisdk-biweekly-21</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/14/ruyisdk-biweekly-21</guid>
             <pubDate>Tue, 14 May 2024 00:00:00 GMT</pubDate>
@@ -490,7 +490,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="openjdk">OpenJDK<a class="hash-link" aria-label="OpenJDK への直接リンク" title="OpenJDK への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/14/ruyisdk-biweekly-21#openjdk">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="openjdk">OpenJDK<a class="hash-link" aria-label="OpenJDK への直接リンク" title="OpenJDK への��直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/05/14/ruyisdk-biweekly-21#openjdk">​</a></h2>
 <ol>
 <li>OpenJDK PRs:</li>
 </ol>
@@ -607,7 +607,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>内容请详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 020 期·2024 年 04 月 23 日]]></title>
+            <title><![CDATA[第 020 期·2024 年 04 月 23 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20</guid>
             <pubDate>Tue, 23 Apr 2024 00:00:00 GMT</pubDate>
@@ -708,12 +708,12 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 使用 RISC-V 提供的 sys_riscv_hwprobe 系统调用来进行运行时指令集的探测。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网 への直接リンク" title="官网 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>本期暂无进展。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="��操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>新增对 Canaan Kendryte K510、Sipeed Tang Mega 138K Pro 等开发板的系统支持情况调研。基于矽速各开发板展开测试验证，输出测试报告。
 内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 019 期·2024 年 04 月 09 日]]></title>
+            <title><![CDATA[第 019 期·2024 年 04 月 09 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/09/ruyisdk-biweekly-19</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/09/ruyisdk-biweekly-19</guid>
             <pubDate>Tue, 09 Apr 2024 00:00:00 GMT</pubDate>
@@ -844,7 +844,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 018 期·2024 年 03 月 26 日]]></title>
+            <title><![CDATA[第 018 期·2024 年 03 月 26 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18</guid>
             <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
@@ -862,7 +862,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 </ul>
 <p>此外，我们完善了持续集成基础设施：从此版本开始，RuyiSDK 包管理器的所有版本发布将以自动化方式完成了。这有助于我们更高效、更可靠地推进开发工作、解决问题。</p>
 <p>欢迎试用或来上游围观；您的需求是我们迭代开发的目标和动力。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE への直接リンク" title="IDE への直接リン��ク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#ide">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE への直接リンク" title="IDE への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#ide">​</a></h2>
 <p>集成开发环境 VSCode 开发部分目前征集到一位内部兼职开发者，开始尝试基于 VSCode 实现 Milkv 开发板的集成开发工作。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC への直接リンク" title="GCC への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#gcc">​</a></h2>
 <p>香山南湖的微架构支持已合入 GCC 上游，继续推进 RUYISDK 多版本 GCC 的支持工作，更新了“-march=help”特性的支持。</p>
@@ -948,7 +948,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 017 期·2024 年 03 月 12 日]]></title>
+            <title><![CDATA[第 017 期·2024 年 03 月 12 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17</guid>
             <pubDate>Tue, 12 Mar 2024 00:00:00 GMT</pubDate>
@@ -1045,12 +1045,12 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 </ul>
 <p>官网访问地址：<a href="https://ruyisdk.org/" target="_blank" rel="noopener noreferrer">https://ruyisdk.org/</a></p>
 <p>官网仓库：<a href="https://github.com/ruyisdk/ruyisdk-website" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyisdk-website</a></p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リン�ク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>RISC-V 开发板及其支持的操作系统的支持矩阵公开发布第一版，目前已集成到官网。</p>
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 016 期·2024 年 02 月 27 日]]></title>
+            <title><![CDATA[第 016 期·2024 年 02 月 27 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/02/27/ruyisdk-biweekly-16</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/02/27/ruyisdk-biweekly-16</guid>
             <pubDate>Tue, 27 Feb 2024 00:00:00 GMT</pubDate>
@@ -1133,7 +1133,7 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 </ol>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 015 期·2024 年 01 月 30 日]]></title>
+            <title><![CDATA[第 015 期·2024 年 01 月 30 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/30/ruyisdk-biweekly-15</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/30/ruyisdk-biweekly-15</guid>
             <pubDate>Tue, 30 Jan 2024 00:00:00 GMT</pubDate>
@@ -1174,7 +1174,7 @@ DynamoRIO 二进制包。</li>
 <p>完成 V8 on Android RISC-V 的英文文档，并向 RISE 汇报了此项任务的完成（<a href="https://github.com/riscv-collab/v8/wiki/How-to-Run-v8-on-Android-RISCV%EF%BC%89%E3%80%82" target="_blank" rel="noopener noreferrer">https://github.com/riscv-collab/v8/wiki/How-to-Run-v8-on-Android-RISCV）。</a></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 014 期·2024 年 01 月 16 日]]></title>
+            <title><![CDATA[第 014 期·2024 年 01 月 16 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/16/ruyisdk-biweekly-14</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/16/ruyisdk-biweekly-14</guid>
             <pubDate>Tue, 16 Jan 2024 00:00:00 GMT</pubDate>
@@ -1200,7 +1200,7 @@ DynamoRIO 二进制包。</li>
 <p>根据上游的意见，重新提交了 Zc*与 Intrinsic 支持的 patch，继续移植 RUYISDK GCC11/12 版本</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 013 期·2024 年 01 月 02 日]]></title>
+            <title><![CDATA[第 013 期·2024 年 01 月 02 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/02/ruyisdk-biweekly-13</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/01/02/ruyisdk-biweekly-13</guid>
             <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
@@ -1217,7 +1217,7 @@ DynamoRIO 二进制包。</li>
 <p>开始更新 GCC11/12 分支上的 RISC-V 扩展支持，修复了 Zca option 的冲突问题，添加了 Profiles 支持所需的一些新扩展</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 012 期·2023 年 12 月 19 日]]></title>
+            <title><![CDATA[第 012 期·2023 年 12 月 19 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/19/ruyisdk-biweekly-12</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/19/ruyisdk-biweekly-12</guid>
             <pubDate>Tue, 19 Dec 2023 00:00:00 GMT</pubDate>
@@ -1232,13 +1232,13 @@ DynamoRIO 二进制包。</li>
 <li><a href="https://github.com/ruyisdk/ruyi/issues/24" target="_blank" rel="noopener noreferrer">Issue #24</a>：GNU 工具链包中的 GDB 先前非预期地动态链接到了构建环境中的 Python 3.8，导致这些 <code>gdb</code> 二进制在 Python 版本不是 3.8.x 的系统上无法工作。考虑到 Python 版本的多样性，以及目前 Ruyi 所计划支持的宿主发行版均已提供 <code>gdb</code> 包，目前暂时先禁用了软件源中三种 GNU 工具链包的 GDB Python 支持。后续将调研以静态链接的方式恢复支持。</li>
 </ul>
 <p>欢迎试用或来上游围观；您的需求是我们迭代开发的目标和动力。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE への直接リンク" title="IDE への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/19/ruyisdk-biweekly-12#ide">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE へ�の直接リンク" title="IDE への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/19/ruyisdk-biweekly-12#ide">​</a></h2>
 <p>本期暂无进展。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC への直接リンク" title="GCC への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/19/ruyisdk-biweekly-12#gcc">​</a></h2>
 <p>Bitmanip/Scalar Crypto 的 intrinsic patch 收到了 review 意见，开发过程中发现了 gcc upstream 的模板错误，已反馈社区进行了修复。RISC-V Profiles 根据 review 意见重新提交了 patch，目前收到新的反馈意见，等待修改后重新发送。修复了 OpenHW 社区发现的 Zca .option 段冲突问题，目前已被 OpenHW 社区合并。Gprofng/libmvec RISC-V 后端 porting 工作持续推进中。</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 011 期·2023 年 12 月 05 日]]></title>
+            <title><![CDATA[第 011 期·2023 年 12 月 05 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/05/ruyisdk-biweekly-11</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/12/05/ruyisdk-biweekly-11</guid>
             <pubDate>Tue, 05 Dec 2023 00:00:00 GMT</pubDate>
@@ -1279,7 +1279,7 @@ DynamoRIO 二进制包。</li>
 <p>完成了 Zcmt 扩展的 Rebase 工作，并已向 Binutils 上游提交。完成了 K 扩展的 intrinsics 支持工作，向上游提交了 patch, B 扩展的 intrinsics 工作仍在进行测试中,预计本周内提交支持。RUYISDK 工具链方面提交了 RUYISDK 工具链的介绍文档，包含常用的 RISC-V GNU 工具介绍及支持扩展，常用选项说明，持续更新工具链仓库中。</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 010 期·2023 年 11 月 21 日]]></title>
+            <title><![CDATA[第 010 期·2023 年 11 月 21 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/21/ruyisdk-biweekly-10</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/21/ruyisdk-biweekly-10</guid>
             <pubDate>Tue, 21 Nov 2023 00:00:00 GMT</pubDate>
@@ -1304,14 +1304,14 @@ DynamoRIO 二进制包。</li>
 <p>完成了 Profiles 的 gcc 支持，重构了 zcmp 扩展的 binutils 实现，已向上游提交 patch，等待社区审核中。继续进行 B/K 扩展的 intrinsic 开发工作，预计本月完成支持后向上游提交工作。RUYISDK 工具链方面正在重构工具链分支以 RVV 扩展的最新特性，准备补充基础的 riscv-gcc 使用说明，包括支持扩展及常用选项参数等，预计 0.2 版本发布前完成。</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[RuyiSDK 双周进展汇报 第 009 期·2023 年 11 月 07 日]]></title>
+            <title><![CDATA[第 009 期·2023 年 11 月 07 日]]></title>
             <link>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/07/ruyisdk-biweekly-09</link>
             <guid>https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/07/ruyisdk-biweekly-09</guid>
             <pubDate>Tue, 07 Nov 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[卷首语]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="卷首语">卷首语<a class="hash-link" aria-label="卷首语 への直接リンク" title="卷首语 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8D%B7%E9%A6%96%E8%AF%AD">​</a></h2>
 <p>天气渐冷，RuyiSDK 双周进展已经来到了第 9 期。从本期开始，RuyiSDK 双周进展将采用全新的内容组织形式，期望能给您带来更好的体验，成为您冬日里的一缕暖阳。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="包管理器">包管理器<a class="hash-link" aria-label="包管理器 への直接リンク" title="包管理器 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="包管理器">包管理器<a class="hash-link" aria-label="包管理器 への直接リンク" title="包��管理器 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">​</a></h2>
 <p>项目地址：<a href="https://github.com/ruyisdk/ruyi" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyi</a></p>
 <p>相比两周前，调整了一部分软件源的元数据格式，联网包管理器的功能也实现了大部分。
 目前实现了以下的功能点：</p>
