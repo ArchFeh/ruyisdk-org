@@ -133,10 +133,12 @@ Community Impact Guidelines wurden von
 [Mozillas Code of Conduct Enforcement Ladder][mozilla] inspiriert.
 
 Antworten auf häufig gestellte Fragen zu diesem Verhaltenskodex finden Sie in
-den häufig gestellten Fragen unter <https://www.contributor-covenant.org/faq>
+den häufig gestellten Fragen unter [https://www.contributor-covenant.org/faq][faq]
 (in Englisch). Andere Übersetzungen sind verfügbar unter
-<https://www.contributor-covenant.org/translations>.
+[https://www.contributor-covenant.org/translations][tras].
 
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [mozilla]: https://github.com/mozilla/inclusion
+[faq]: https://www.contributor-covenant.org/faq
+[tras]: https://www.contributor-covenant.org/translations
