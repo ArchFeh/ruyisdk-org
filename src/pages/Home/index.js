@@ -22,10 +22,10 @@ function Hero() {
           </Translate>
         </h2>
         <div className={styles.buttonContainer}>
-          <a href="/download" className={styles.primaryButton}>
+          <a href="./download" className={styles.primaryButton}>
             <Translate id="homepage.primarybutton">现在开始</Translate>
           </a>
-          <a href="/docs/intro" className={styles.secondaryButton}>
+          <a href="./docs/intro" className={styles.secondaryButton}>
             <Translate id="homepage.secondarybutton">了解更多</Translate>
           </a>
         </div>
