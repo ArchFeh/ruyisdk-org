@@ -198,7 +198,7 @@ const config = {
         /**
          * Path to data on filesystem relative to site dir.
          */
-        path: "./biweekly",
+        path: "biweekly",
 
         blogSidebarCount: "ALL",
       },
