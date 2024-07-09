@@ -140,7 +140,7 @@ const config = {
             ],
           },
           {
-            title: "Community",
+            title: "社区",
             items: [
               {
                 label: "Discussion",
@@ -157,10 +157,10 @@ const config = {
             ],
           },
           {
-            title: "More",
+            title: "更多",
             items: [
               {
-                label: "Blog",
+                label: "博客",
                 to: "/blog",
               },
               {
