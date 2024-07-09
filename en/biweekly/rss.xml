@@ -1079,7 +1079,7 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="Direct link to GCC" title="Direct link to GCC" href="https://archfeh.github.io/ruyisdk-org/en/biweekly/2024/02/27/ruyisdk-biweekly-16#gcc">​</a></h2>
 <p>更新了 RV64ILP32 的<a href="https://github.com/ruyisdk/riscv-gnu-toolchain-rv64ilp32" target="_blank" rel="noopener noreferrer">工具链仓库</a>，同步更新了各个子模块的实现与构建，补充了中文构建使用说明测试文档</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="llvm">LLVM<a class="hash-link" aria-label="Direct link to LLVM" title="Direct link to LLVM" href="https://archfeh.github.io/ruyisdk-org/en/biweekly/2024/02/27/ruyisdk-biweekly-16#llvm">​</a></h2>
-<h3 class="anchor anchorWithHideOnScrollNavbar_emO8" id="t-head-vector-拓展">T-Head Vector 拓展<a class="hash-link" aria-label="Direct link to T-Head Vector 拓展" title="Direct link to T-Head Vector 拓展" href="https://archfeh.github.io/ruyisdk-org/en/biweekly/2024/02/27/ruyisdk-biweekly-16#t-head-vector-%E6%8B%93%EF%BF%BD%E5%B1%95">​</a></h3>
+<h3 class="anchor anchorWithHideOnScrollNavbar_emO8" id="t-head-vector-拓展">T-Head Vector 拓展<a class="hash-link" aria-label="Direct link to T-Head Vector 拓展" title="Direct link to T-Head Vector 拓展" href="https://archfeh.github.io/ruyisdk-org/en/biweekly/2024/02/27/ruyisdk-biweekly-16#t-head-vector-%E6%8B%93%E5%B1%95">​</a></h3>
 <p>首先是常规进度更新，RuyiSDK 分支中的 T-Head Vector 拓展的进度如下：</p>
 <ul>
 <li>继续完善 LLVM intrinsic 函数，自上次更新以来，新支持了这些类别下的函数：<!-- -->

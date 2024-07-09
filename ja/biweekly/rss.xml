@@ -708,7 +708,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 使用 RISC-V 提供的 sys_riscv_hwprobe 系统调用来进行运行时指令集的探测。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网 への直接リンク" title="官网 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>本期暂无进展。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="��操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>新增对 Canaan Kendryte K510、Sipeed Tang Mega 138K Pro 等开发板的系统支持情况调研。基于矽速各开发板展开测试验证，输出测试报告。
 内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
@@ -862,7 +862,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 </ul>
 <p>此外，我们完善了持续集成基础设施：从此版本开始，RuyiSDK 包管理器的所有版本发布将以自动化方式完成了。这有助于我们更高效、更可靠地推进开发工作、解决问题。</p>
 <p>欢迎试用或来上游围观；您的需求是我们迭代开发的目标和动力。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE への直接リンク" title="IDE への�直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#ide">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE への直接リンク" title="IDE への直接リン��ク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#ide">​</a></h2>
 <p>集成开发环境 VSCode 开发部分目前征集到一位内部兼职开发者，开始尝试基于 VSCode 实现 Milkv 开发板的集成开发工作。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC への直接リンク" title="GCC への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/26/ruyisdk-biweekly-18#gcc">​</a></h2>
 <p>香山南湖的微架构支持已合入 GCC 上游，继续推进 RUYISDK 多版本 GCC 的支持工作，更新了“-march=help”特性的支持。</p>
@@ -1045,7 +1045,7 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 </ul>
 <p>官网访问地址：<a href="https://ruyisdk.org/" target="_blank" rel="noopener noreferrer">https://ruyisdk.org/</a></p>
 <p>官网仓库：<a href="https://github.com/ruyisdk/ruyisdk-website" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyisdk-website</a></p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リンク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵 への直接リンク" title="操作系统支持矩阵 への直接リン�ク" href="https://archfeh.github.io/ruyisdk-org/ja/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>RISC-V 开发板及其支持的操作系统的支持矩阵公开发布第一版，目前已集成到官网。</p>
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>

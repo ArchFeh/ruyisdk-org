@@ -747,7 +747,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 使用 RISC-V 提供的 sys_riscv_hwprobe 系统调用来进行运行时指令集的探测。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网에 대한 직접 링크" title="官网에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>本期暂无进展。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支��持矩阵에 대한 직접 링크" title="操作系统支持矩阵에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵에 대�한 직접 링크" title="操作系统支持矩阵에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>新增对 Canaan Kendryte K510、Sipeed Tang Mega 138K Pro 等开发板的系统支持情况调研。基于矽速各开发板展开测试验证，输出测试报告。
 内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content>
         <author>
@@ -882,7 +882,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <li>移植 TurboShaft IR 的单元测试集到 RISC-V 架构。</li>
 <li>在 V8 中实现相应的支持，以适配 openEuler RISC-V 新版本中的 SV57 虚拟内存特性。</li>
 </ol>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网에 대한 직접 링크" title="官网에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/04/09/ruyisdk-biweekly-19#%E5%AE%98%E7%BD%91">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官�网에 대한 직접 링크" title="官网에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/04/09/ruyisdk-biweekly-19#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>RuyiSDK 官网正式上线了！欢迎访问官网，了解更多关于 RuyiSDK 的信息，点击网站下方的订阅，获得我们的最新消息或者加入社区。</p>
 <p>官网访问地址：<a href="https://ruyisdk.org/" target="_blank" rel="noopener noreferrer">https://ruyisdk.org/</a></p>
 <p>官网仓库：<a href="https://github.com/ruyisdk/ruyisdk-website" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyisdk-website</a></p>

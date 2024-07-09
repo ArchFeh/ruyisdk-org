@@ -943,7 +943,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <p>官网访问地址：<a href="https://ruyisdk.org/" target="_blank" rel="noopener noreferrer">https://ruyisdk.org/</a></p>
 <p>官网仓库：<a href="https://github.com/ruyisdk/ruyisdk-website" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyisdk-website</a></p>
 <p>官网近期完成了细节的更新、文档更新、i18n 多语言支持相关的工作。目前公开<a href="https://mp.weixin.qq.com/s/p3WmhN27aAaMPlL4vP39IQ" target="_blank" rel="noopener noreferrer">邀请测试</a>中。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵的直接链接" title="操作系统支持矩阵的直接链接" href="https://archfeh.github.io/ruyisdk-org/biweekly/2024/03/26/ruyisdk-biweekly-18#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作�系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵的直接链接" title="操作系统支持矩阵的直接链接" href="https://archfeh.github.io/ruyisdk-org/biweekly/2024/03/26/ruyisdk-biweekly-18#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>对 RISC-V 开发板及其支持的操作系统的支持矩阵的内容和文档进行了更新和完善，并增加了 Milk-V Duo S、Milk-V Mars、Milk-V Vega 等新设备的支持调研，Milk-V Duo S、Milk-V Mars 在开发板上的实际测试验证等待采购设备到位后开展。</p>
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>
