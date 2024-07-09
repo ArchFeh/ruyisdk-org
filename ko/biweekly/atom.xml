@@ -2,11 +2,119 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://archfeh.xyz/ruyisdk-org/ko/biweekly</id>
     <title>RuyiSDK Blog</title>
-    <updated>2024-06-24T00:00:00.000Z</updated>
+    <updated>2024-07-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly"/>
     <subtitle>RuyiSDK Blog</subtitle>
     <icon>https://archfeh.xyz/ruyisdk-org/ko/https://ruyisdk.org/favicons/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[RuyiSDK 双周进展汇报 第 025 期·2024 年 07 月 09 日]]></title>
+        <id>https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25</id>
+        <link href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25"/>
+        <updated>2024-07-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[卷首语]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="卷首语">卷首语<a class="hash-link" aria-label="卷首语에 대한 직접 링크" title="卷首语에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#%E5%8D%B7%E9%A6%96%E8%AF%AD">​</a></h2>
+<p>RuyiSDK V0.14 版本已于今日发布。 在这个版本中，<strong>包管理器正式引入插件架构</strong>，<code>ruyi</code> 虚拟环境的 profile 相关处理现在完全由插件负责了。此外 PLCT 完成了 Box64 的 RISC-V 架构适配，并将代码合入上游，<strong>RuyiSDK 软件源此次增加了 Box64 模拟器并初步实现了在 Box64 中打开 wps-linux-x86_64 writer。</strong></p>
+<p>RuyiSDK 更多进展细节详见下方详情，欢迎大家试用并提供反馈和建议。下一个开发版本 RuyiSDK V0.15 版本将在 7 月 23 日发布。</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="包管理器">包管理器<a class="hash-link" aria-label="包管理器에 대한 직접 링크" title="包管理器에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">​</a></h2>
+<p>RuyiSDK 0.14 对应的包管理器版本也为 0.14.0，已于今日发布。您可移步
+<a href="https://github.com/ruyisdk/ruyi/releases/tag/0.14.0" target="_blank" rel="noopener noreferrer">GitHub Releases</a> 或 <a href="https://mirror.iscas.ac.cn/ruyisdk/ruyi/releases/0.14.0/" target="_blank" rel="noopener noreferrer">ISCAS 镜像源</a>下载体验。</p>
+<p>本次 RuyiSDK 包管理器的更新主要包含了以下内容：</p>
+<ul>
+<li>正式引入插件架构：<code>ruyi</code> 虚拟环境的 profile 相关处理现在完全由插件负责了。</li>
+<li>支持了 Debian 软件包格式 <code>*.deb</code> 的解包操作。</li>
+<li>再次完善了对“预发布版本”的判断：先前会对非完全由数字结尾的该类版本号判断错误。
+但该潜在问题不会被当前的 RuyiSDK 软件源内容触发。</li>
+<li>修复了 riscv64 Python 3.12 环境下 <code>pygit2</code> 的构建失败问题：先前需要在
+<code>pygit2</code> 构建开始之后、试图在其虚拟环境中执行 <code>setup.py</code> 前，人工干预，在该环境中安装
+<code>setuptools</code>——从 Python 3.12 起该包已经不会被自动安装。</li>
+</ul>
+<p>本次 RuyiSDK 软件源的更新主要包含了以下内容：</p>
+<ul>
+<li>增加了从上游源码打包的 Box64 架构模拟器：<code>emulator/box64-upstream</code>。</li>
+<li>增加了办公套件 <code>extra/wps-office</code>。请注意：由于是商业软件的缘故，首次运行该软件包时需要操作接受一份《最终用户许可协议》。</li>
+<li>您可按照 <code>ruyi news</code> 的指引，在您的 RISC-V 桌面设备上用 Box64 运行
+WPS Office 进行办公了。</li>
+</ul>
+<p>为了支持刷写方式复杂、需要夹杂人工干预、镜像文件需要手工下载等复杂情况下的设备初始化，我们正在将设备安装器重构为基于插件架构的形式。
+由于本开发周期临时加入了 Box64 运行 WPS Office 的 PoC 内容，设备安装器的插件化重构工作暂缓，但仍将在未来的版本上线。届时旧版
+<code>ruyi</code> 的设备安装器功能将不可用，请先升级再进行体验。</p>
+<p>欢迎试用或来上游围观；您的需求是我们迭代开发的目标和动力。</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE에 대한 직접 링크" title="IDE에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#ide">​</a></h2>
+<p>本期无进展。</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC에 대한 직접 링크" title="GCC에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#gcc">​</a></h2>
+<ul>
+<li>提交了 gprofng 的 patch，目前已通过 review 修改，正在等待合并。</li>
+<li>更新了 profiles 的支持。</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="llvm">LLVM<a class="hash-link" aria-label="LLVM에 대한 직접 링크" title="LLVM에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#llvm">​</a></h2>
+<ul>
+<li>新建 <a href="https://github.com/ruyisdk/llvm-project/tree/Tuning-SPEC-CPU" target="_blank" rel="noopener noreferrer">Tuning-SPEC-CPU</a> 分支，用于 Spec CPU 较高性能的优化</li>
+<li>支持了使用 <code>vget</code> 和 <code>vset</code> 在不同 LMUL 的寄存器组上进行操作</li>
+<li>完善相关测试用例，增加更多真实世界的代码片段作为测试</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="v8">V8<a class="hash-link" aria-label="V8에 대한 직접 링크" title="V8에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#v8">​</a></h2>
+<ol>
+<li>新增 RISCV32 的 Turboshaft 单元测试支持。</li>
+<li>新增 RISC-V SV39 支持。</li>
+</ol>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="openjdk">OpenJDK<a class="hash-link" aria-label="OpenJDK에 대한 직접 링크" title="OpenJDK에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#openjdk">​</a></h2>
+<ol>
+<li>Proposed JDK-mainline PRs:</li>
+</ol>
+<ul>
+<li><a href="https://github.com/openjdk/jdk/pull/19649" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19649</a> (8333964: RISC-V: C2: Check "requires_strict_order" flag for floating-point add reduction)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19686" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19686</a> (8334078: RISC-V: TestIntVect.java fails after JDK-8332153 when running without RVV)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19785" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19785</a> (8334505: RISC-V: Several tests fail when MaxVectorSize does not match VM_Version::_initial_vector_length)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19852" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19852</a> (8334843: RISC-V: Fix wraparound checking for r_array_index in lookup_secondary_supers_table_slow_path)</li>
+</ul>
+<ol start="2">
+<li>Reviewed JDK-mainline PRs:</li>
+</ol>
+<ul>
+<li><a href="https://github.com/openjdk/jdk/pull/19473" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19473</a> (8333248: VectorGatherMaskFoldingTest.java failed when maximum vector bits is 64)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19459" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19459</a> (8332900: RISC-V: refactor nativeInst_riscv.cpp and macroAssembler_riscv.cpp)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19472" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19472</a> (8333245: RISC-V: UseRVV option can't be enabled after JDK-8316859)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19481" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19481</a> (8333276: RISC-V: client VM build failure after JDK-8241503)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19431" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19431</a> (8332899: RISC-V: add comment and make the code more readable (if possible) in MacroAssembler::movptr)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19564" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19564</a> (8333652: RISC-V: compiler/vectorapi/VectorGatherMaskFoldingTest.java fails when using RVV)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19453" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19453</a> (8332689: RISC-V: Use load instead of trampolines)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19320" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19320</a> (8332587: RISC-V: secondary_super_cache does not scale well)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19649" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19649</a> (8333964: RISC-V: C2: Check "requires_strict_order" flag for floating-point add reduction)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19679" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19679</a> (8334135: RISC-V: check vector support in VM_Version::os_aux_features)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19686" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19686</a> (8334078: RISC-V: TestIntVect.java fails after JDK-8332153 when running without RVV)</li>
+<li><a href="https://github.com/openjdk/jdk/pull/19750" target="_blank" rel="noopener noreferrer">https://github.com/openjdk/jdk/pull/19750</a> (8334396: RISC-V: verify perf of ReverseBytesI/L)</li>
+</ul>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网에 대한 직접 링크" title="官网에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#%E5%AE%98%E7%BD%91">​</a></h2>
+<p><a href="https://mp.weixin.qq.com/s/7JuZMKcxpENoygn1YfnCLA" target="_blank" rel="noopener noreferrer">RuyiSDK 社区参与的 MoonBit 第三次 Meetup 活动回顾来了！🎉</a></p>
+<p>由 MoonBit 联合 RuyiSDK 和 Intel 举办的第三次 Meetup 活动圆满结束啦！本次活动嘉宾云集，涵盖了从云原生开发平台到 WebAssembly 模块化技术、编程语言垃圾回收技术的最新进展、RuyiSDK 包管理器以及 RevyOS 最新进展多个热点话题。</p>
+<p>截止今日 7 月 8 日，订阅人数一共 37 人（增加 1 人）。RuyiSDK 网站访问人数 502 人（增加 103 人），访问页面 1424 次（增加 339 次）。RuyiSDK 微信交流群 70 人（进群请微信加小助手 ruyisdk_helper）。</p>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵에 대한 직접 링크" title="操作系统支持矩阵에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/07/09/ruyisdk-biweekly-25#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<ul>
+<li>Ubuntu 24.04 LTS<!-- -->
+<ul>
+<li>StarFive VisionFive 2</li>
+<li>HiFive Unmatched</li>
+</ul>
+</li>
+<li>openEuler RISC-V 24.03 LTS<!-- -->
+<ul>
+<li>Sipeed Lichee Pi 4A</li>
+<li>Milk-V Pioneer (v1.3)</li>
+</ul>
+</li>
+<li>一些小的 typo 修复</li>
+</ul>
+<p>内容请详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">ruyisdk/support-matrix</a></p>]]></content>
+        <author>
+            <name>xijing21</name>
+            <uri>https://github.com/xijing21</uri>
+        </author>
+        <author>
+            <name>ArchFeh</name>
+            <uri>https://github.com/ArchFeh</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RuyiSDK 双周进展汇报 第 024 期·2024 年 06 月 24 日]]></title>
         <id>https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/06/24/ruyisdk-biweekly-24</id>
@@ -639,7 +747,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 使用 RISC-V 提供的 sys_riscv_hwprobe 系统调用来进行运行时指令集的探测。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="官网에 대한 직접 링크" title="官网에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>本期暂无进展。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支持矩阵에 대한 직접 링크" title="操作系统支持矩阵에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="操作系统支��持矩阵에 대한 직접 링크" title="操作系统支持矩阵에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/04/23/ruyisdk-biweekly-20#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>新增对 Canaan Kendryte K510、Sipeed Tang Mega 138K Pro 等开发板的系统支持情况调研。基于矽速各开发板展开测试验证，输出测试报告。
 内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content>
         <author>
@@ -836,7 +944,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 </ul>
 </li>
 </ul>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="openjdk">OpenJDK<a class="hash-link" aria-label="OpenJDK에 대한 �직접 링크" title="OpenJDK에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/03/26/ruyisdk-biweekly-18#openjdk">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="openjdk">OpenJDK<a class="hash-link" aria-label="OpenJDK에 대한 직접 링크" title="OpenJDK에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2024/03/26/ruyisdk-biweekly-18#openjdk">​</a></h2>
 <p>OpenJDK RV64 继续持续负责 OpenJDK RISC-V 相关代码的日常开发、测试、代码检视和架构看护。</p>
 <ol>
 <li>Reviewed JDK-mainline PRs:</li>
@@ -1330,7 +1438,7 @@ DynamoRIO 二进制包。</li>
         <summary type="html"><![CDATA[卷首语]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="卷首语">卷首语<a class="hash-link" aria-label="卷首语에 대한 직접 링크" title="卷首语에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8D%B7%E9%A6%96%E8%AF%AD">​</a></h2>
 <p>天气渐冷，RuyiSDK 双周进展已经来到了第 9 期。从本期开始，RuyiSDK 双周进展将采用全新的内容组织形式，期望能给您带来更好的体验，成为您冬日里的一缕暖阳。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="包管理器">包管理器<a class="hash-link" aria-label="包管理器에 대한 직접 링크" title="�包管理器에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="包管理器">包管理器<a class="hash-link" aria-label="包管理器에 대한 직접 링크" title="包管理器에 대한 직접 링크" href="https://archfeh.xyz/ruyisdk-org/ko/biweekly/2023/11/07/ruyisdk-biweekly-09#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8">​</a></h2>
 <p>项目地址：<a href="https://github.com/ruyisdk/ruyi" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyi</a></p>
 <p>相比两周前，调整了一部分软件源的元数据格式，联网包管理器的功能也实现了大部分。
 目前实现了以下的功能点：</p>
