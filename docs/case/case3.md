@@ -50,8 +50,8 @@ ruyi list
 6. 安装 gnu：ruyi install `<package-name>`
 
 ```bash
-#安装适用于 Licheepi 4A 的编译工具链 gnu-plct-xthead 
-ruyi install gnu-plct-xthead 
+#安装适用于 Licheepi 4A 的编译工具链 gnu-plct-xthead
+ruyi install gnu-plct-xthead
 ```
 
 7. 查看预置编译环境
@@ -67,16 +67,16 @@ ruyi list profiles
 ruyi venv -h
 
 ##创建虚拟环境 venv-sipeed
-ruyi venv -t gnu-plct-xthead sipeed-lpi4a venv-sipeed 
+ruyi venv -t gnu-plct-xthead sipeed-lpi4a venv-sipeed
 
 #查看编译环境中得工具
-ls venv-sipeed/bin/ 
+ls venv-sipeed/bin/
 
 #激活虚拟环境（虚拟环境可以理解成一个容器，实现运行环境隔离的设计，激活后，在 venv-sipeed 这个环境中，使用的就是 gnu-plct-xthead 版本工具链。不创建虚拟环境也可以为 /home/sipeed/.local/share/ruyi/binaries/riscv64/gnu-plct-xthead-2.8.0-ruyi.20240222/bin 配置环境变量，直接使用环境变量指定的gcc编译）
-. venv-sipeed/bin/ruyi-activate 
+. venv-sipeed/bin/ruyi-activate
 
 #查看当前虚拟环境下的 gcc 是否可用
-«Ruyi venv-sipeed» sipeed@lpi4a1590:~$ riscv64-plctxthead-linux-gnu-gcc --version 
+«Ruyi venv-sipeed» sipeed@lpi4a1590:~$ riscv64-plctxthead-linux-gnu-gcc --version
 ```
 
 9. 下载解压 coremark 源码作为编译对象
@@ -101,6 +101,7 @@ sed -i 's/\bgcc\b/riscv64-plctxthead-linux-gnu-gcc/g' linux64/core_portme.mak
 make PORT_DIR=linux64 link
 ls -al    #新增可执行程序coremark.exe
 ```
+
 12. 查看 rv64 可执行程序文件属性信息。
 
 ```bash
@@ -115,4 +116,3 @@ file coremark.exe
 ```bash
 ./coremark.exe
 ```
-

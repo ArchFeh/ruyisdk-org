@@ -1,5 +1,6 @@
 ---
-title: '尝鲜：使用 Box64 在 RISC-V 系统上运行 WPS Office'
+title: "尝鲜：使用 Box64 在 RISC-V 系统上运行 WPS Office"
+authors: [white]
 ---
 
 # 尝鲜：使用 Box64 在 RISC-V 系统上运行 WPS Office
@@ -22,8 +23,8 @@ Office 等常见 x86 二进制软件已成为可能。RuyiSDK 正在开展此方
 其最新稳定版本得到体现。我们打包了 Box64 的开发快照版本；为了能够安装此版本，
 您需要配置 `ruyi` 以使其在安装软件包时考虑预发布版本。
 
-* 如果 `~/.config/ruyi` 目录不存在，则创建之。
-* 编辑 `~/.config/ruyi/config.toml`。
+- 如果 `~/.config/ruyi` 目录不存在，则创建之。
+- 编辑 `~/.config/ruyi/config.toml`。
 
 ```toml
 [packages]
@@ -51,7 +52,6 @@ ruyi install box64-upstream
 
 不同 Linux 发行版的 `binfmt_misc` 配置方式不尽相同，以下针对采用 systemd
 的系统叙述。您可以根据自身情况自行调整。
-
 
 ```sh
 # 确认 Box64 可执行文件的位置
