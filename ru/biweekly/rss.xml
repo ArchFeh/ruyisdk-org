@@ -279,7 +279,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="Прямая ссылка на 官网" title="Прямая ссылка на 官网" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/06/11/ruyisdk-biweekly-23#%E5%AE%98%E7%BD%91">​</a></h2>
 <p>增加了<a href="mailto:contact@ruyisdk.cn" target="_blank" rel="noopener noreferrer">contact@ruyisdk.cn</a>邮箱，优化了订阅体验。</p>
 <p>截止今日 6 月 11 日，订阅人数一共 33 人（增加 1 人）。RuyiSDK 网站访问人数 291 人（增加 114 人），访问页面 848 次（增加 440 次）。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="Прямая ссылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/06/11/ruyisdk-biweekly-23#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩��阵">操作系统支持矩阵<a class="hash-link" aria-label="Прямая ссылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/06/11/ruyisdk-biweekly-23#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>本周在支持矩阵中新增了更多开发板和操作系统：</p>
 <ul>
 <li>Milk-V Mars: BuildRoot</li>
@@ -530,7 +530,7 @@ Python 语言的开发者都可使用熟悉的语法撰写 RuyiSDK 包管理器�
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="官网">官网<a class="hash-link" aria-label="Прямая ссылка на 官网" title="Прямая ссылка на 官网" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/05/14/ruyisdk-biweekly-21#%E5%AE%98%E7%BD%91">​</a></h2>
 <p><a href="https://mp.weixin.qq.com/s/NAWuUF4ggmmDvPvKkznkOw" target="_blank" rel="noopener noreferrer">RuyiSDK 社区首次线下 Meetup 来啦，5 月 18 日软件所见！</a></p>
 <p>为了完善国内注册功能，如意官网在进一步的完善后端服务端和推进 ruyisdk.cn 域名备案。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="Прямая ссылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/05/14/ruyisdk-biweekly-21#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="П�рямая ссылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/05/14/ruyisdk-biweekly-21#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>新增部分全志、芯来开发板的系统支持情况调研；基于现有开发板和相关文档展开测试验证，产出测试报告。</p>
 <ul>
 <li>Milk-V Duo S<!-- -->
@@ -1045,7 +1045,7 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 </ul>
 <p>官网访问地址：<a href="https://ruyisdk.org/" target="_blank" rel="noopener noreferrer">https://ruyisdk.org/</a></p>
 <p>官网仓库：<a href="https://github.com/ruyisdk/ruyisdk-website" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/ruyisdk-website</a></p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="Прямая сс�ылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="操作系统支持矩阵">操作系统支持矩阵<a class="hash-link" aria-label="Прямая ссылка на 操作系统支持矩阵" title="Прямая ссылка на 操作系统支持矩阵" href="https://archfeh.github.io/ruyisdk-org/ru/biweekly/2024/03/12/ruyisdk-biweekly-17#%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E6%94%AF%E6%8C%81%E7%9F%A9%E9%98%B5">​</a></h2>
 <p>RISC-V 开发板及其支持的操作系统的支持矩阵公开发布第一版，目前已集成到官网。</p>
 <p>内容详见：<a href="https://github.com/ruyisdk/support-matrix" target="_blank" rel="noopener noreferrer">https://github.com/ruyisdk/support-matrix</a></p>]]></content:encoded>
         </item>

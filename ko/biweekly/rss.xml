@@ -1078,7 +1078,7 @@ Zabha 扩展 patch 已被上游接受合入,继续推进 gprofng 与 libmvec 库
 <p>Chisel 所需的 Verilog 仿真器 Verilator 目前在部分 Linux（如 openEuler）发行版支持还需完善，此外运行过程中遇到一些问题还在继续了解中。Chisel 对 RISC-V 项目的支持目前比较普及，国内很多 RISC-V 处理器设计相关项目均采用的 Chisel，如香山。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC에 대한 직접 링크" title="GCC에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/02/27/ruyisdk-biweekly-16#gcc">​</a></h2>
 <p>更新了 RV64ILP32 的<a href="https://github.com/ruyisdk/riscv-gnu-toolchain-rv64ilp32" target="_blank" rel="noopener noreferrer">工具链仓库</a>，同步更新了各个子模块的实现与构建，补充了中文构建使用说明测试文档</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="llvm">LLVM<a class="hash-link" aria-label="LLVM에 대한 직접 링크" title="LLVM에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/02/27/ruyisdk-biweekly-16#llvm">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="llvm">LLVM<a class="hash-link" aria-label="LLVM에 ��대한 직접 링크" title="LLVM에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/02/27/ruyisdk-biweekly-16#llvm">​</a></h2>
 <h3 class="anchor anchorWithHideOnScrollNavbar_emO8" id="t-head-vector-拓展">T-Head Vector 拓展<a class="hash-link" aria-label="T-Head Vector 拓展에 대한 직접 링크" title="T-Head Vector 拓展에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2024/02/27/ruyisdk-biweekly-16#t-head-vector-%E6%8B%93%E5%B1%95">​</a></h3>
 <p>首先是常规进度更新，RuyiSDK 分支中的 T-Head Vector 拓展的进度如下：</p>
 <ul>
@@ -1232,7 +1232,7 @@ DynamoRIO 二进制包。</li>
 <li><a href="https://github.com/ruyisdk/ruyi/issues/24" target="_blank" rel="noopener noreferrer">Issue #24</a>：GNU 工具链包中的 GDB 先前非预期地动态链接到了构建环境中的 Python 3.8，导致这些 <code>gdb</code> 二进制在 Python 版本不是 3.8.x 的系统上无法工作。考虑到 Python 版本的多样性，以及目前 Ruyi 所计划支持的宿主发行版均已提供 <code>gdb</code> 包，目前暂时先禁用了软件源中三种 GNU 工具链包的 GDB Python 支持。后续将调研以静态链接的方式恢复支持。</li>
 </ul>
 <p>欢迎试用或来上游围观；您的需求是我们迭代开发的目标和动力。</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE에 대한 직접 링크" title="IDE에 대한 직접 ��링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/12/19/ruyisdk-biweekly-12#ide">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE에 대한 직접 링크" title="IDE에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/12/19/ruyisdk-biweekly-12#ide">​</a></h2>
 <p>本期暂无进展。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC에 대한 직접 링크" title="GCC에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/12/19/ruyisdk-biweekly-12#gcc">​</a></h2>
 <p>Bitmanip/Scalar Crypto 的 intrinsic patch 收到了 review 意见，开发过程中发现了 gcc upstream 的模板错误，已反馈社区进行了修复。RISC-V Profiles 根据 review 意见重新提交了 patch，目前收到新的反馈意见，等待修改后重新发送。修复了 OpenHW 社区发现的 Zca .option 段冲突问题，目前已被 OpenHW 社区合并。Gprofng/libmvec RISC-V 后端 porting 工作持续推进中。</p>]]></content:encoded>
@@ -1297,7 +1297,7 @@ DynamoRIO 二进制包。</li>
 <li>为使 repo 内的软件包信息有条理，新增了软件包分类的概念，将原先扁平的目录结构加深 1 层；</li>
 <li>为方便后续迭代、表达特殊语义等需要，预留了下划线开头的包名，后续再行 case-by-case 定义。</li>
 </ul>
-<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE에 대한 직접 링크" title="IDE에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/11/21/ruyisdk-biweekly-10#ide">​</a></h2>
+<h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="ide">IDE<a class="hash-link" aria-label="IDE에 대한 직접 링크" title="IDE에 �대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/11/21/ruyisdk-biweekly-10#ide">​</a></h2>
 <p>IDE 部分 10 日提交了一版基于 Eclipse 已有插件集成的 x86_64 的可执行程序，界面定制部分仅完成可执行程序 LOGO 定制和加载界面定制，未按照预期完成所需的定制任务。后因为 IDE 开发人员变动，开发进度再无推进。</p>
 <p>现处于 IDE 开发人员招聘中。</p>
 <h2 class="anchor anchorWithHideOnScrollNavbar_emO8" id="gcc">GCC<a class="hash-link" aria-label="GCC에 대한 직접 링크" title="GCC에 대한 직접 링크" href="https://archfeh.github.io/ruyisdk-org/ko/biweekly/2023/11/21/ruyisdk-biweekly-10#gcc">​</a></h2>
