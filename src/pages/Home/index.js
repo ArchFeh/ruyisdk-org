@@ -9,6 +9,21 @@ import React from "react";
 import styles from "./styles.module.css";
 import Translate, { translate } from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import videojs from "video.js";
+
+const videoJsOptions = {
+  autoplay: false,
+  playbackRates: [0.5, 1, 1.25, 1.5, 2],
+  width: 720,
+  height: 300,
+  controls: true,
+  sources: [
+    {
+      src: "/static/img/video.mp4",
+      type: "video/mp4",
+    },
+  ],
+};
 
 function Hero() {
   const { siteConfig } = useDocusaurusContext();
@@ -50,6 +65,7 @@ function Hero() {
             </svg>
           </a>
         </div>
+        <videojs {...videoJsOptions} />
       </div>
     </div>
   );

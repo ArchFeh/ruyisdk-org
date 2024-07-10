@@ -61,13 +61,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // announcementBar: {
-      //   id: "ruyi",
-      //   content: "RV",
-      //   backgroundColor: "#20232a",
-      //   textColor: "#fff",
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: "ruyi",
+        content:
+          'k230D最新发布，<a target="_blank" rel="noopener noreferrer" href="#">点击查看</a>',
+        backgroundColor: "#20232a",
+        textColor: "#fff",
+        isCloseable: true,
+      },
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
